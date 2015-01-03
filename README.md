@@ -12,10 +12,10 @@ Examples
 ========
 
 ImageDateSort.py
- -Reads images in current dirctory and sorts to ~/Pictures/yyyy/yy.MM.dd/
+    Reads images in current dirctory and sorts to ~/Pictures/yyyy/yy.MM.dd/
 
 ImageDateSort.py -s ~/CameraPics -d ~/MyPics -m -R -E
- -Reads all images in ~/CameraPics directory and all subdirectories and outputs sorted files in ~/MyPics/yyyy/yy.MM.dd/{camera model from EXIF}/. Original files will be deleted.
+    Reads all images in ~/CameraPics directory and all subdirectories and outputs sorted files in ~/MyPics/yyyy/yy.MM.dd/{camera model from EXIF}/. Original files will be deleted.
 
 
 Acknowledgements
