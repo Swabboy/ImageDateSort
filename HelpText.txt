@@ -1,0 +1,16 @@
+Usage: python ImageDateSort [Option][Parameter]
+
+  -h --help			Show this help text
+
+  File Options
+    -f [image file name]	Load single file
+    -E 				Erase original file after sorting
+    -x[file extension]		Search for files with the given extension(Default: jpg)
+
+  Directory Parameters
+    -s [directory path]		Source directory of files to sort
+    -d [directory path]		Destination directory to save sorted files(Default: ~/Pictures)
+    -R 				Recursivley seach input directory for image files
+    -m				Create camera model directory in date directories (Ex: ~/Pictures/yyyy/yy.mm.dd/<camera model>/
+
+Ex: pyhton ImageDateSort -d ~/MyPics -R (This will sort all pictures in current directory and sub directories to ~/MyPics/yyyy/yy.MM.dd/)
